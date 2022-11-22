@@ -1,0 +1,18 @@
+{
+    "name": "vendic/magento2-smile-elasticsuite-disable-tracking",
+    "description": "Disable tracking and telemetry from Smile Elasticsuite and remove tracking.js",
+    "require": {
+        "php": "~7.4|~8.1",
+        "magento/magento-composer-installer": "*",
+        "magento/framework": "103.0.*"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Vendic\\SmileElasticSuiteDisableTracking\\": ""
+        }
+    }
+}

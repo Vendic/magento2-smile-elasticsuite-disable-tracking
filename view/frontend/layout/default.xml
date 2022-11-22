@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <remove src="Smile_ElasticsuiteTracker::js/tracking.js"/>
+    </head>
+    <body>
+        <referenceBlock name="smile.tracker.page.base" remove="true"/>
+        <referenceBlock name="smile.tracker.page.catalog" remove="true"/>
+        <referenceBlock name="smile.tracker.config" remove="true"/>
+    </body>
+</page>
